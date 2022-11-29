@@ -4,10 +4,9 @@
       <component :is="Component"/>
     </keep-alive>
   </router-view> -->
-  <div>
-    <MHeader></MHeader>
+  <MHeader></MHeader>
   <MTab></MTab>
-  </div>
+  <router-view></router-view>
 
 </template>
 
