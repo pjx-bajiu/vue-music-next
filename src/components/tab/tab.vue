@@ -1,7 +1,7 @@
 <template>
   <div class="tab">
     <router-link class="tab-item" v-for="(tab,index) in tabs" :key="index" :to="tab.path">
-      <span>{{tab.name}}</span>
+      <span class="tab-link">{{tab.name}}</span>
     </router-link>
   </div>
 </template>
